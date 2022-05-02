@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+
+/* HEADER */
+
+header div.container-header-section {
+    width: 90%;
+    margin: auto;
+    padding-top: 65px;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+header section div.texto {
+    align-self: center;
+}
+
+header section div.texto h1 {
+    font-size: 5rem;
+}
+
+header section div.texto h2 {
+    font-weight: 200;
+    font-size: 3rem;
+    padding-bottom: 50px;
+}
+
+header section div.texto a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: #cc0000;
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid #cc0000;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+header section div a:hover {
+    background-color: white;
+    color: #222222;
+}
+
+header section img {
+    width: 600px;
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 100px;
+}
+
+main section.primeiro {
+    background-color: #eef6f8;
+}
+
+main section.primeiro h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+main section.primeiro div.container {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+main section.primeiro div.container div.row div {
+    margin-top: 50px;
+}
+
+main section.primeiro div.container div.row div figure img {
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main section.primeiro div.container div.row div figure figcaption {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main div.segundo {
+    margin-top: 65px;
+    padding-bottom: 65px;
+}
+
+main div.segundo div.texto {
+    align-self: center;
+}
+
+main div.segundo div.texto h1 {
+    font-size: 4rem;
+}
+
+main div.segundo div.texto p {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+main div.segundo img {
+    width: 600px;
+}
+
+
+main div.terceiro {
+    background-color: #eef6f8;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+main div.terceiro div.texto {
+    align-self: center;
+}
+
+
+main div.terceiro h1 {
+    font-size: 4rem;
+}
+
+main div.terceiro p {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 100px;
+}
+
+main div.terceiro img {
+    width: 500px;
+}
+
+main div.terceiro div.texto a {
+    background-color: #cc0000;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 2.4rem;
+    border: 2px solid #cc0000;
+    padding: 10px 15px;
+} 
+
+main div.terceiro div.texto a:hover {
+    background-color: white;
+    color: #222222;
+}
+
+
+/* MEDIAS */
+
+@media (max-width: 991px) {
+
+    main div.terceiro p {
+        margin-bottom: 30px;
+    }
+
+    main div.terceiro img {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    header div.container-header-section {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    header div.container-header-section {
+        padding: 10px;
+    }
+
+    header section img {
+        margin-top: 20px;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+}
