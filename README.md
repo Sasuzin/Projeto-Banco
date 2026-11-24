@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="imagens/Logo-UNIBanco.png" alt="Logo UNIBanco" width="360">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/logo-unibanco-tema-escuro.png">
+  <img src="imagens/Logo-UNIBanco.png" alt="Logo UNIBanco" width="360">
+</picture>
 
 ### Banco como você, feito para você!
 
@@ -17,7 +20,7 @@ Projeto acadêmico do curso de Tecnologia em Sistemas para Internet (TSI) do Sen
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap_5.0.1-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-555555?style=flat-square&logo=githubpages&logoColor=white)
 ![Status](https://img.shields.io/badge/status-finalizado-2EA44F?style=flat-square)
 
 </div>
@@ -153,7 +156,8 @@ Projeto-Banco/
 ├── node_modules/
 │   └── bootstrap/        # Bootstrap 5.0.1 (CSS e JS)
 ├── docs/
-│   └── screenshots/      # Imagens usadas neste README
+│   ├── screenshots/      # Capturas de tela usadas neste README
+│   └── logo-unibanco-tema-escuro.png  # Logo claro para o tema escuro do GitHub
 ├── .nojekyll             # Faz o GitHub Pages publicar a pasta node_modules
 └── package-lock.json
 ```
