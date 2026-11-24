@@ -88,6 +88,16 @@ footer {
     font-weight: 200;
 }
 
+footer .footer-credit {
+    color: inherit;
+    text-decoration: underline;
+}
+
+footer .footer-credit:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+
 
 .menu-toggle {
     cursor: pointer;
